@@ -46,10 +46,16 @@ while True:
     if checkwin() == True:
         print("Congrats you won!")
         printboard()
+        if input("Would you like to play again? Type 'yes'. Otherwise type 'quit': ") == "yes":
+            turn = 1
+            continue
         break
     printboard()
     if turn >= 9:
         print("Tie!")
+        if input("Would you like to play again? Type 'yes'. Otherwise type 'quit': ") == "yes":
+            turn = 1
+            continue
         break
     turn += 1
 
