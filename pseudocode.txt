@@ -3,7 +3,7 @@ Pseudocode
 Create Grid (strings)
 Print grid (list of three strings and three lines)
 grid [3,3]
-grid=[[],[],[]]
+grid=[[None, None, None],[None, None, None],[None, None, None]]
 
 
 
