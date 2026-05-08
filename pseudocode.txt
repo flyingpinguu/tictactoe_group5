@@ -1,8 +1,14 @@
 Pseudocode
 
 Create Grid (strings)
-Print grid
+Print grid (list of three strings and three lines)
+grid [3,3]
+grid=[[],[],[]]
+
+
+
 while True:
+#input function 
 	Ask current user for input
 	If field free:
 		Put in the user input
