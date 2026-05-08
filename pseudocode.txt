@@ -1,0 +1,23 @@
+Pseudocode
+
+Create Grid (strings)
+Print grid
+while True:
+	Ask current user for input
+	If field free:
+		Put in the user input
+	Else:
+		Error message
+		Continue
+	If user win
+		Print grid
+		print congratulations
+		Break
+	Else:
+		If grid full:
+			Print grid
+			Print tie message
+			break
+		Switch current user
+		Print grid
+		continue
